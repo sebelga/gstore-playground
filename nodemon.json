@@ -1,0 +1,10 @@
+
+{
+  "verbose": true,
+	"debug": true,
+  "ignore": [".git", "node_modules"],
+  "watch": ["./server/src"],
+	"exec": "node --inspect=127.0.0.1:9230 --nolazy -r ts-node/register/transpile-only -r tsconfig-paths/register -r dotenv/config ./src/datastore.ts",
+  "ext": "ts, gql",
+  "inspect": true
+}

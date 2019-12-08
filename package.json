@@ -1,0 +1,30 @@
+{
+  "name": "gstore-node-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:datastore": "nodemon"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^5.0.1",
+    "@google-cloud/firestore": "^2.6.1",
+    "gstore-node": "7.2.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.5.4",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.3"
+  }
+}
